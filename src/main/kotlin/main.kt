@@ -1,6 +1,14 @@
-fun main(args: Array<String>) {
+import java.util.*
+import kotlin.random.Random
 
-    for (numero in ClaseArray(11).array){
-        println(numero)
+fun main(args: Array<String>) {
+    val numero = ClaseArray(10){
+        Random.nextInt(50,250)
     }
+
+    numero.array.forEach {
+        println(it)
     }
+}
+
+
