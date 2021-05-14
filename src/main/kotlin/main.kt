@@ -1,3 +1,6 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
-}
+
+    for (numero in ClaseArray(11).array){
+        println(numero)
+    }
+    }
